@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="WolframMC:jar">
+    <output-path>$USER_HOME$/Documents/spigot/plugins/wolframp/Wolfram.jar</output-path>
+    <root id="archive" name="WolframMC.jar">
+      <element id="module-output" name="WolframMC" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/spigot/spigot-latest.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/WolframAlphaJavaLibrary/WolframAlpha-1.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="commons-codec-1.9" />
+      <element id="library" level="project" name="httpclient-4.5.2" />
+      <element id="library" level="project" name="httpcore-4.4.4" />
+      <element id="library" level="project" name="commons-logging-1.2" />
+      <element id="dir-copy" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.2/lib" />
+    </root>
+  </artifact>
+</component>

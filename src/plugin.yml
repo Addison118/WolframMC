@@ -1,0 +1,9 @@
+name: WolframMC
+author: Addisonep
+main: org.wolframmc.Main
+version: 1.0
+description: a plugin for wolfram alpha
+commands:
+  wa:
+    description: Send requests to Wolfram Alpha
+    usage: /wa <request>
